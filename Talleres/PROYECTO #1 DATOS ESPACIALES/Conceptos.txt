@@ -1,0 +1,16 @@
+Crear un proyecto que use singleton, DAO y DTO 
+
+SINGLETON 
+Permite que se cree una sola instancia de un objeto, en este caso usaremos singleton para crear una sola instacia de la base de datos, todos los metodos usaran la misma instacia de base de datos. 
+
+DAO 
+Nos permite crear la crud, y realizar las operaciones con la base de datos, manteniendola en un espacio aparte (dejando la capa de datos, separada de la capa de negocio), en este contexto lo usaremos para crear la crud
+
+DTO
+dto nos permite usar los datos de la base de datos, sin tocar esta directamente, podemos pasar estos datos entres las diferentes capas sin que estos interactuen directamente con la base de datos, en este contexto lo usaremos para 
+
+
+EJEMPLO
+tenemos la conexion sigleton en donde solo creamos una instacia global para la base de datos 
+creamos una instacia del dao, para con esta llamar a los metodos 
+y el resultado del metodo lo guardamos en un objeto dto 
